@@ -1,0 +1,8 @@
+'use strict';
+
+angular.module('jhipstertokenApp')
+    .controller('ConfigurationController', function ($scope, ConfigurationService) {
+        ConfigurationService.get().then(function(configuration) {
+            $scope.configuration = configuration;
+        });
+    });

@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "baseName": "jhipsteroauth2",
+    "packageName": "com.example.demo",
+    "packageFolder": "com/example/demo",
+    "authenticationType": "oauth2",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "enableTranslation": false,
+    "rememberMeKey": "869364a253f30b5b63d0b027516b2a98f17b1c7d"
+  }
+}
